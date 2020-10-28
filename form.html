@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulir Siswa</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+         <form>
+             <fieldset style="background-color: aqua">
+                <legend>Student Registration Form</legend>
+             <h1 style="color: black; font-family: sans-serif;">Student Registration Form</h1>
+             <br />
+             <table style="float: right;">
+                 <tr>
+                     <td>Date</td>
+                     <td><input type="date"></td>
+                 </tr>
+             </table>
+             <br />
+             <h2 style="font-family: sans-serif;">PERSONAL INFORMATION</h2>
+             <table>
+                 <tr>
+                     <td>NAME</td>
+                     <td><input type="text" name="name" size="100"></td>
+                 </tr>
+                 <tr>
+                     <td>DATE OF BIRTH</td>
+                     <td><input type="date" name="date"></td>
+                 </tr>
+                 <tr>
+                     <td>GENDER</td>
+                     <td>
+                         <input type="radio" name="gender" />Male
+                         <input type="radio" name="gender" />Female
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>RELIGION</td>
+                     <td>
+                         <select name="religion">
+                             <option value="Islam">Islam</option>
+                             <option value="Kristen">Kristen</option>
+                             <option value="Khonghucu">Khonghucu</option>
+                             <option value="Other">Other</option>
+                         </select>
+                     </td>
+                 </tr>
+             </table>
+             <br />
+             <h2 style="font-family: sans-serif;">CONTACT INFORMATION</h2>
+             <table>
+                 <tr>
+                     <td>ADDRESS</td>
+                     <td><input type="text" name="address" size="50"></td>
+                 </tr>
+                 <tr>
+                     <td>CITY</td>
+                     <td><input type="text" name="city"></td>
+                     <td>PROVINCE/STATE</td>
+                     <td><input type="text" name="state"></td>
+                 </tr>
+                 <tr>
+                    <td>ZIP CODE</td>
+                    <td><input type="number" name="zip"></td>
+                    <td>COUNTRY</td>
+                    <td><input type="text" name="country"></td>
+                 </tr>
+                 <tr>
+                     <td>PHONE</td>
+                     <td><input type="text" name="phone"></td>
+                     <td>EMAIL</td>
+                     <td><input type="text" name="email"></td>
+                 </tr>
+                 <tr>
+                     <td>Membership</td>
+                     <td>
+                         <input type="radio" name="membership" />Regular
+                         <input type="radio" name="membership" />Premium
+                         <input type="radio" name="membership" />VIP
+                     </td>
+                 </tr>     
+             </table>
+             <br>
+             <h2 style="font-family: sans-serif;">COURSE DETAILS</h2>
+             <table>
+                 <tr>
+                     <td>COURSE NAME</td>
+                     <td><input type="text" name="course"></td>
+                 </tr>
+                 <tr>
+                     <td>PAYMENT DETAILS</td>
+                     <td>
+                         <input type="radio" name="payment" />Cash
+                         <input type="radio" name="payment" />Cheque
+                         <input type="radio" name="payment" />Credit Card
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>COMMENTS</td>
+                     <td><textarea name="COMMENTS" cols="53" rows="2"></textarea></td>
+                 </tr>
+             </table> 
+             <br />
+             <table>
+                 <tr>
+                     <td><textarea cols="35" rows="5" placeholder="STUDENT'S SIGNATURE"></textarea></td>
+                     <td><textarea cols="35" rows="5" placeholder="VALIDATE BY"></textarea></td>
+                 </tr>
+             </table>
+             <br />
+             </fieldset>
+             <table>
+                 <tr>
+                     <td>
+                         <button type="submit">Submit</button>
+                         <button type="button">Batal</button>
+                    </td>
+                 </tr>
+             </table>
+         </form>
+    </body>
+</html>
